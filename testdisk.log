@@ -1,0 +1,352 @@
+
+
+Tue Sep 27 12:09:50 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.4.0-126-generic (#142-Ubuntu SMP Fri Aug 26 12:12:57 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_US.UTF-8'.
+
+
+Tue Sep 27 12:10:05 2022
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.4.0-126-generic (#142-Ubuntu SMP Fri Aug 26 12:12:57 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       1465149168 sectors
+/dev/sda: user_max   1465149168 sectors
+/dev/sda: native_max 1465149168 sectors
+/dev/sda: dco        1465149168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors (RO), sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - TOSHIBA MK7559GSXP, S/N:71VHC42VT, FW:GN003J
+Disk /dev/loop0 - 64 MB / 61 MiB - 126888 sectors (RO), sector size=512
+Disk /dev/loop1 - 66 MB / 63 MiB - 129480 sectors (RO), sector size=512
+Disk /dev/loop2 - 70 MB / 67 MiB - 137712 sectors (RO), sector size=512
+Disk /dev/loop3 - 71 MB / 67 MiB - 138880 sectors (RO), sector size=512
+Disk /dev/loop5 - 50 MB / 47 MiB - 98288 sectors (RO), sector size=512
+Disk /dev/loop6 - 50 MB / 47 MiB - 98272 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+SIGINT detected! TestDisk has been killed.
+
+
+Tue Sep 27 12:10:35 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.4.0-126-generic (#142-Ubuntu SMP Fri Aug 26 12:12:57 UTC 2022) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       1465149168 sectors
+/dev/sda: user_max   1465149168 sectors
+/dev/sda: native_max 1465149168 sectors
+/dev/sda: dco        1465149168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors (RO), sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - TOSHIBA MK7559GSXP, S/N:71VHC42VT, FW:GN003J
+Disk /dev/loop0 - 64 MB / 61 MiB - 126888 sectors (RO), sector size=512
+Disk /dev/loop1 - 66 MB / 63 MiB - 129480 sectors (RO), sector size=512
+Disk /dev/loop2 - 70 MB / 67 MiB - 137712 sectors (RO), sector size=512
+Disk /dev/loop3 - 71 MB / 67 MiB - 138880 sectors (RO), sector size=512
+Disk /dev/loop5 - 50 MB / 47 MiB - 98288 sectors (RO), sector size=512
+Disk /dev/loop6 - 50 MB / 47 MiB - 98272 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 750 GB / 698 GiB - TOSHIBA MK7559GSXP
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1465149167 (expected 1465149167)
+hdr_lba_start=34
+hdr_lba_end=1465149134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+ 1 P Unknown                     2048       4095       2048
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+
+
+dir_partition inode=2
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 .
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 ..
+      11 drwx------     0      0     16384 12-Apr-2022 16:49 lost+found
+      12 lrwxrwxrwx     0      0         7 23-Feb-2022 08:49 bin
+      13 lrwxrwxrwx     0      0         7 23-Feb-2022 08:49 lib
+      14 lrwxrwxrwx     0      0         9 23-Feb-2022 08:49 lib32
+      15 lrwxrwxrwx     0      0         9 23-Feb-2022 08:49 lib64
+      16 lrwxrwxrwx     0      0        10 23-Feb-2022 08:49 libx32
+      17 lrwxrwxrwx     0      0         8 23-Feb-2022 08:49 sbin
+ 42205185 drwxr-xr-x     0      0      4096 24-Sep-2022 08:57 boot
+ 38535398 drwxr-xr-x  1000   1000      4096 13-Apr-2022 20:56 projects
+ 14155777 drwxr-xr-x     0      0      4096 23-Feb-2022 08:54 dev
+ 15990785 drwxr-xr-x     0      0     12288 24-Sep-2022 08:56 etc
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 home
+ 36962305 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 media
+ 27787265 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 mnt
+ 10747905 drwxr-xr-x     0      0      4096 12-Apr-2022 17:17 opt
+ 6291457 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 proc
+ 38010881 drwx------     0      0      4096  2-Sep-2022 22:17 root
+ 12058625 drwxr-xr-x     0      0      4096 23-Feb-2022 08:57 run
+ 26476545 drwxr-xr-x     0      0      4096 23-Feb-2022 08:57 snap
+ 5505025 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 srv
+ 27525121 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 sys
+ 27000833 drwxrwxrwt     0      0      4096 27-Sep-2022 12:09 tmp
+ 40894465 drwxr-xr-x     0      0      4096 23-Feb-2022 08:53 usr
+ 24379393 drwxr-xr-x     0      0      4096 12-Apr-2022 17:39 var
+      18 -rw-------     0      0 4294967296 12-Apr-2022 16:55 swap.img
+ 8126465 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 cert
+
+dir_partition inode=36175873
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /home
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 .
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 ..
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 terron
+ 36183570 drwxr-xr-x     0      0     20480  8-Sep-2022 09:44 node_modules
+ 36184416 -rw-r--r--     0      0    518965  8-Sep-2022 09:44 package-lock.json
+ 36184417 -rw-r--r--     0      0       140  8-Sep-2022 09:44 package.json
+
+dir_partition inode=36175874
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /home/terron
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 .
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 ..
+ 36175875 -rw-r--r--  1000   1000       807 25-Feb-2020 12:03 .profile
+ 36175876 -rw-r--r--  1000   1000      3771 25-Feb-2020 12:03 .bashrc
+ 36175877 -rw-r--r--  1000   1000       220 25-Feb-2020 12:03 .bash_logout
+ 36175878 drwx------  1000   1000      4096 19-Sep-2022 21:10 .ssh
+ 36175880 drwx------  1000   1000      4096 22-Apr-2022 16:10 .cache
+ 36175882 -rw-r--r--  1000   1000         0 12-Apr-2022 17:09 .sudo_as_admin_successful
+ 36175883 -rw-------  1000   1000     40916 26-Sep-2022 19:22 .bash_history
+ 36175884 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:20 .npm
+ 36179319 drwx------  1000   1000      4096  2-Sep-2022 22:17 .config
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 projects
+ 1835293 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:10 .local
+ 38404128 drwxr-xr-x  1000   1000      4096 14-Apr-2022 14:11 storage
+ 36702859 drwxrwxr-x  1000   1000      4096 22-Sep-2022 19:15 recovery
+ 36181242 -rw-rw-r--  1000   1000        61 26-Apr-2022 21:14 .gitconfig
+
+dir_partition inode=36180296
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /home/terron/projects
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 .
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 ..
+ 36180297 drwxrwxr-x  1000   1000      4096 12-Apr-2022 18:55 react-app
+ 36179998 drwxrwxr-x  1000   1000      4096 26-Apr-2022 21:04 axies
+ 36179971 drwxr-xr-x  1000   1000      4096 21-Apr-2022 15:20 ronix
+ 36180821 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:06 ronin-chain
+ 1835385 drwxrwxr-x  1000   1000      4096 24-Apr-2022 16:03 bot
+ 36180201 drwxrwxr-x  1000   1000      4096 24-Apr-2022 20:12 snipe
+ 36180254 drwxr-xr-x  1000   1000      4096  2-Sep-2022 21:20 __
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 tokens.com
+ 36183085 drwxr-xr-x  1000   1000      4096 10-Sep-2022 08:08 ducoinexchange.com
+ 36184353 drwxr-xr-x  1000   1000      4096  8-Sep-2022 10:13 walletconnect
+ 36309787 drwxrwxr-x  1000   1000      4096 13-Sep-2022 20:58 uniswap
+ 36309826 drwxr-xr-x  1000   1000      4096 21-Sep-2022 21:15 locktokens.com
+ 36310057 drwxr-xr-x  1000   1000      4096 26-Sep-2022 18:36 template.xyz
+ 36702868 drwxr-xr-x  1000   1000      4096 25-Sep-2022 17:37 powtools.xyz
+ 36310263 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:21 terron.tk
+X36703161 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:31 tokenmaker.tk
+X36310311 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 LICENSE.md
+X36310317 -rw-rw-r--  1000   1000      7241 26-Sep-2022 20:14 package.json
+X36310312 -rw-rw-r--  1000   1000   5039414 26-Sep-2022 20:14 README.md
+X36310318 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 src
+X36310264 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:15 gatsby-simplefolio
+Directory /home/terron/projects
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 .
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 ..
+ 36180297 drwxrwxr-x  1000   1000      4096 12-Apr-2022 18:55 react-app
+ 36179998 drwxrwxr-x  1000   1000      4096 26-Apr-2022 21:04 axies
+ 36179971 drwxr-xr-x  1000   1000      4096 21-Apr-2022 15:20 ronix
+ 36180821 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:06 ronin-chain
+ 1835385 drwxrwxr-x  1000   1000      4096 24-Apr-2022 16:03 bot
+ 36180201 drwxrwxr-x  1000   1000      4096 24-Apr-2022 20:12 snipe
+ 36180254 drwxr-xr-x  1000   1000      4096  2-Sep-2022 21:20 __
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 tokens.com
+ 36183085 drwxr-xr-x  1000   1000      4096 10-Sep-2022 08:08 ducoinexchange.com
+ 36184353 drwxr-xr-x  1000   1000      4096  8-Sep-2022 10:13 walletconnect
+ 36309787 drwxrwxr-x  1000   1000      4096 13-Sep-2022 20:58 uniswap
+ 36309826 drwxr-xr-x  1000   1000      4096 21-Sep-2022 21:15 locktokens.com
+ 36310057 drwxr-xr-x  1000   1000      4096 26-Sep-2022 18:36 template.xyz
+ 36702868 drwxr-xr-x  1000   1000      4096 25-Sep-2022 17:37 powtools.xyz
+ 36310263 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:21 terron.tk
+Directory /home/terron/projects
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 .
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 ..
+ 36180297 drwxrwxr-x  1000   1000      4096 12-Apr-2022 18:55 react-app
+ 36179998 drwxrwxr-x  1000   1000      4096 26-Apr-2022 21:04 axies
+ 36179971 drwxr-xr-x  1000   1000      4096 21-Apr-2022 15:20 ronix
+ 36180821 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:06 ronin-chain
+ 1835385 drwxrwxr-x  1000   1000      4096 24-Apr-2022 16:03 bot
+ 36180201 drwxrwxr-x  1000   1000      4096 24-Apr-2022 20:12 snipe
+ 36180254 drwxr-xr-x  1000   1000      4096  2-Sep-2022 21:20 __
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 tokens.com
+ 36183085 drwxr-xr-x  1000   1000      4096 10-Sep-2022 08:08 ducoinexchange.com
+ 36184353 drwxr-xr-x  1000   1000      4096  8-Sep-2022 10:13 walletconnect
+ 36309787 drwxrwxr-x  1000   1000      4096 13-Sep-2022 20:58 uniswap
+ 36309826 drwxr-xr-x  1000   1000      4096 21-Sep-2022 21:15 locktokens.com
+ 36310057 drwxr-xr-x  1000   1000      4096 26-Sep-2022 18:36 template.xyz
+ 36702868 drwxr-xr-x  1000   1000      4096 25-Sep-2022 17:37 powtools.xyz
+ 36310263 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:21 terron.tk
+X36703161 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:31 tokenmaker.tk
+X36310311 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 LICENSE.md
+X36310317 -rw-rw-r--  1000   1000      7241 26-Sep-2022 20:14 package.json
+X36310312 -rw-rw-r--  1000   1000   5039414 26-Sep-2022 20:14 README.md
+X36310318 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 src
+X36310264 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:15 gatsby-simplefolio
+
+dir_partition inode=36836187
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /home/terron/projects/tokens.com
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 .
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 ..
+ 36836230 -rw-rw-r--  1000   1000      1018 27-Sep-2022 12:01 package.json
+ 42211340 drwxrwxr-x  1000   1000     40960 27-Sep-2022 12:11 node_modules
+ 36836248 -rw-rw-r--  1000   1000   2082113 27-Sep-2022 12:11 package-lock.json
+ 36836249 -rw-rw-r--  1000   1000      3359 12-Sep-2022 08:43 README.md
+ 37098078 drwxrwxr-x  1000   1000      4096 12-Sep-2022 08:44 .git
+ 36836251 drwxrwxr-x  1000   1000      4096 12-Sep-2022 08:43 public
+ 36967400 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:05 src
+ 36836250 -rw-rw-r--  1000   1000       310 12-Sep-2022 08:43 .gitignore
+ 36836620 -rw-rw-r--  1000   1000      4096 27-Sep-2022 12:11 testdisk.log
+
+dir_partition inode=36967400
+ 2 P Linux filesys. data         4096 1465145343 1465141248
+Directory /home/terron/projects/tokens.com/src
+ 36967400 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:05 .
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 ..
+ 36967423 -rw-rw-r--  1000   1000         0 27-Sep-2022 11:25 App.css
+ 36967442 drwxr-xr-x  1000   1000      4096 20-Sep-2022 10:25 utils
+ 36836380 drwxr-xr-x  1000   1000      4096 20-Sep-2022 09:57 context
+ 36967426 -rw-rw-r--  1000   1000      3893 27-Sep-2022 11:44 index.css
+ 36967427 -rw-rw-r--  1000   1000       277 20-Sep-2022 10:07 index.js
+ 36967430 -rwxr--r--  1000   1000       362 13-Sep-2022 16:10 reportWebVitals.js
+ 36967438 -rwxr--r--  1000   1000       241 13-Sep-2022 16:10 setupTests.js
+ 36967424 -rw-rw-r--  1000   1000       461 27-Sep-2022 12:06 App.jsx
+ 36967425 drwxr-xr-x  1000   1000      4096 20-Sep-2022 10:12 providers
+ 36967533 drwxr-xr-x  1000   1000      4096 20-Sep-2022 10:17 networks
+ 36967535 drwxr-xr-x  1000   1000      4096 20-Sep-2022 10:19 callbacks
+ 42081078 drwxr-xr-x  1000   1000      4096 27-Sep-2022 12:02 components
+Directory /home/terron/projects/tokens.com
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 .
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 ..
+ 36836230 -rw-rw-r--  1000   1000      1018 27-Sep-2022 12:01 package.json
+ 42211340 drwxrwxr-x  1000   1000     40960 27-Sep-2022 12:11 node_modules
+ 36836248 -rw-rw-r--  1000   1000   2082113 27-Sep-2022 12:11 package-lock.json
+ 36836249 -rw-rw-r--  1000   1000      3359 12-Sep-2022 08:43 README.md
+ 37098078 drwxrwxr-x  1000   1000      4096 12-Sep-2022 08:44 .git
+ 36836251 drwxrwxr-x  1000   1000      4096 12-Sep-2022 08:43 public
+ 36967400 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:05 src
+ 36836250 -rw-rw-r--  1000   1000       310 12-Sep-2022 08:43 .gitignore
+ 36836620 -rw-rw-r--  1000   1000      4096 27-Sep-2022 12:11 testdisk.log
+Directory /home/terron/projects
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 .
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 ..
+ 36180297 drwxrwxr-x  1000   1000      4096 12-Apr-2022 18:55 react-app
+ 36179998 drwxrwxr-x  1000   1000      4096 26-Apr-2022 21:04 axies
+ 36179971 drwxr-xr-x  1000   1000      4096 21-Apr-2022 15:20 ronix
+ 36180821 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:06 ronin-chain
+ 1835385 drwxrwxr-x  1000   1000      4096 24-Apr-2022 16:03 bot
+ 36180201 drwxrwxr-x  1000   1000      4096 24-Apr-2022 20:12 snipe
+ 36180254 drwxr-xr-x  1000   1000      4096  2-Sep-2022 21:20 __
+ 36836187 drwxrwxr-x  1000   1000      4096 27-Sep-2022 12:09 tokens.com
+ 36183085 drwxr-xr-x  1000   1000      4096 10-Sep-2022 08:08 ducoinexchange.com
+ 36184353 drwxr-xr-x  1000   1000      4096  8-Sep-2022 10:13 walletconnect
+ 36309787 drwxrwxr-x  1000   1000      4096 13-Sep-2022 20:58 uniswap
+ 36309826 drwxr-xr-x  1000   1000      4096 21-Sep-2022 21:15 locktokens.com
+ 36310057 drwxr-xr-x  1000   1000      4096 26-Sep-2022 18:36 template.xyz
+ 36702868 drwxr-xr-x  1000   1000      4096 25-Sep-2022 17:37 powtools.xyz
+ 36310263 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:21 terron.tk
+X36703161 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:31 tokenmaker.tk
+X36310311 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 LICENSE.md
+X36310317 -rw-rw-r--  1000   1000      7241 26-Sep-2022 20:14 package.json
+X36310312 -rw-rw-r--  1000   1000   5039414 26-Sep-2022 20:14 README.md
+X36310318 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:14 src
+X36310264 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:15 gatsby-simplefolio
+Directory /home/terron
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 .
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 ..
+ 36175875 -rw-r--r--  1000   1000       807 25-Feb-2020 12:03 .profile
+ 36175876 -rw-r--r--  1000   1000      3771 25-Feb-2020 12:03 .bashrc
+ 36175877 -rw-r--r--  1000   1000       220 25-Feb-2020 12:03 .bash_logout
+ 36175878 drwx------  1000   1000      4096 19-Sep-2022 21:10 .ssh
+ 36175880 drwx------  1000   1000      4096 22-Apr-2022 16:10 .cache
+ 36175882 -rw-r--r--  1000   1000         0 12-Apr-2022 17:09 .sudo_as_admin_successful
+ 36175883 -rw-------  1000   1000     40916 26-Sep-2022 19:22 .bash_history
+ 36175884 drwxrwxr-x  1000   1000      4096 26-Sep-2022 20:20 .npm
+ 36179319 drwx------  1000   1000      4096  2-Sep-2022 22:17 .config
+ 36180296 drwxrwxr-x  1000   1000      4096 27-Sep-2022 11:13 projects
+ 1835293 drwxrwxr-x  1000   1000      4096 22-Apr-2022 16:10 .local
+ 38404128 drwxr-xr-x  1000   1000      4096 14-Apr-2022 14:11 storage
+ 36702859 drwxrwxr-x  1000   1000      4096 22-Sep-2022 19:15 recovery
+ 36181242 -rw-rw-r--  1000   1000        61 26-Apr-2022 21:14 .gitconfig
+Directory /home
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 .
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 ..
+ 36175874 drwxr-xr-x  1000   1000      4096 22-Sep-2022 19:11 terron
+ 36183570 drwxr-xr-x     0      0     20480  8-Sep-2022 09:44 node_modules
+ 36184416 -rw-r--r--     0      0    518965  8-Sep-2022 09:44 package-lock.json
+ 36184417 -rw-r--r--     0      0       140  8-Sep-2022 09:44 package.json
+Directory /
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 .
+       2 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 ..
+      11 drwx------     0      0     16384 12-Apr-2022 16:49 lost+found
+      12 lrwxrwxrwx     0      0         7 23-Feb-2022 08:49 bin
+      13 lrwxrwxrwx     0      0         7 23-Feb-2022 08:49 lib
+      14 lrwxrwxrwx     0      0         9 23-Feb-2022 08:49 lib32
+      15 lrwxrwxrwx     0      0         9 23-Feb-2022 08:49 lib64
+      16 lrwxrwxrwx     0      0        10 23-Feb-2022 08:49 libx32
+      17 lrwxrwxrwx     0      0         8 23-Feb-2022 08:49 sbin
+ 42205185 drwxr-xr-x     0      0      4096 24-Sep-2022 08:57 boot
+ 38535398 drwxr-xr-x  1000   1000      4096 13-Apr-2022 20:56 projects
+ 14155777 drwxr-xr-x     0      0      4096 23-Feb-2022 08:54 dev
+ 15990785 drwxr-xr-x     0      0     12288 24-Sep-2022 08:56 etc
+ 36175873 drwxr-xr-x     0      0      4096  2-Sep-2022 22:26 home
+ 36962305 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 media
+ 27787265 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 mnt
+ 10747905 drwxr-xr-x     0      0      4096 12-Apr-2022 17:17 opt
+ 6291457 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 proc
+ 38010881 drwx------     0      0      4096  2-Sep-2022 22:17 root
+ 12058625 drwxr-xr-x     0      0      4096 23-Feb-2022 08:57 run
+ 26476545 drwxr-xr-x     0      0      4096 23-Feb-2022 08:57 snap
+ 5505025 drwxr-xr-x     0      0      4096 23-Feb-2022 08:50 srv
+ 27525121 drwxr-xr-x     0      0      4096 15-Apr-2020 11:09 sys
+ 27000833 drwxrwxrwt     0      0      4096 27-Sep-2022 12:09 tmp
+ 40894465 drwxr-xr-x     0      0      4096 23-Feb-2022 08:53 usr
+ 24379393 drwxr-xr-x     0      0      4096 12-Apr-2022 17:39 var
+      18 -rw-------     0      0 4294967296 12-Apr-2022 16:55 swap.img
+ 8126465 drwxr-xr-x     0      0      4096 12-Sep-2022 10:33 cert
+21686148 6449 6e6f 74 4e 65 65 64 45 46 49
+
+TestDisk exited normally.
